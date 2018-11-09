@@ -1,0 +1,16 @@
+{
+  "name": "test-mitra",
+  "version": "1.0.0",
+  "description": "Mitra Intelligence Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "mitraSecondQuestion": "node -e 'require(\"./mitra-second-question\").init()'"
+  },
+  "author": "Renan Kirk",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "mocha": "^5.2.0"
+  }
+}
